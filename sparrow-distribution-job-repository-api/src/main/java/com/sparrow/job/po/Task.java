@@ -1,4 +1,4 @@
-package com.sparrow.job.pojo.po;
+package com.sparrow.job.po;
 
 /**
  * @author harry

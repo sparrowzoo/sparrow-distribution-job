@@ -1,4 +1,4 @@
-package com.sparrow.job.pojo.po;
+package com.sparrow.job.po;
 
 import com.sparrow.enums.STATUS_RECORD;
 

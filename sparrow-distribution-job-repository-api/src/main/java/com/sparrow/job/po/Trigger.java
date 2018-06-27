@@ -1,8 +1,6 @@
-package com.sparrow.job.pojo.po;
+package com.sparrow.job.po;
 
 /**
- * created by harry on 2018/5/25.
- *
  * @author harry
  */
 public class Trigger {

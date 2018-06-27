@@ -12,4 +12,12 @@
     <artifactId>sparrow-distribution-job-client</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.sparrow</groupId>
+            <artifactId>sparrow-distribution-job-service</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
 </project>

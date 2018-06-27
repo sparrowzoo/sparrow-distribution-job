@@ -1,6 +1,7 @@
-package com.sparrow.job.dao;
+package com.sparrow.job.repository;
 
-import com.sparrow.job.pojo.po.Job;
+import com.sparrow.job.po.Job;
+import com.sparrow.support.db.DaoSupport;
 
 import java.util.List;
 
@@ -8,7 +9,7 @@ import java.util.List;
  * @author harry
  * @date 2018/5/25
  */
-public interface JobDAO {
+public interface JobRepository extends DaoSupport<Job, Long> {
     /**
      * 获取所有可自动创建的job 列表
      */

@@ -11,5 +11,16 @@
 
     <artifactId>sparrow-distribution-job-provider</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.sparrow</groupId>
+            <artifactId>sparrow-distribution-job-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sparrow</groupId>
+            <artifactId>sparrow-distribution-job-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -18,5 +18,7 @@
         <module>sparrow-distribution-job-provider</module>
         <module>sparrow-distribution-job-consumer</module>
         <module>sparrow-distribution-job-client</module>
+        <module>sparrow-distribution-job-repository-api</module>
+        <module>sparrow-distribution-job-repository-impl</module>
     </modules>
 </project>
