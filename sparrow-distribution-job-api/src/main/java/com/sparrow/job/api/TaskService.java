@@ -6,18 +6,18 @@ package com.sparrow.job.api;
  */
 public interface TaskService {
     /**
-     * 任务执行成功
+     *  task execute success
      *
-     * @param taskId 任务id
+     * @param taskId task id
      * @return
      */
     Boolean successTask(Long taskId);
 
     /**
-     * 任务执行失败
+     * task execute fail
      *
-     * @param taskId 任务id
-     * @param error  出错原因
+     * @param taskId task id
+     * @param error  error
      * @return
      */
     Boolean failTask(Long taskId, String error);
