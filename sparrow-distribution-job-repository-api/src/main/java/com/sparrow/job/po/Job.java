@@ -1,6 +1,6 @@
 package com.sparrow.job.po;
 
-import com.sparrow.enums.STATUS_RECORD;
+import com.sparrow.protocol.enums.STATUS_RECORD;
 
 /**
  * created by harry on 2018/5/25.
